@@ -10,3 +10,42 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.poste{
+    background-color: black;
+    width: 20px;
+    height: 100px;
+    margin: auto;
+}
+.semaforo{
+    background-color: black;
+    width: 180px;
+    height: 400px;
+    margin: auto;
+    padding-top: 20px;
+    border-radius: 5%;
+
+}
+
+.semaforo div{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    margin: auto;
+}
+
+.luzRoja{
+    background-color: red;
+}
+
+.luzAmarilla{
+    background-color: rgb(255, 174, 0);
+}
+
+.luzVerde{
+    background-color: green;
+}
+
+.selected{
+    box-shadow: yellow 0px 0px 70px 0px; ;
+}
